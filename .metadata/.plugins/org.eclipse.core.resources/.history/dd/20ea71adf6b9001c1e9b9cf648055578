@@ -1,0 +1,19 @@
+package com.callor.arrays.exec;
+
+public class ExecV1 {
+	
+	public static void main(String[] args) {
+		
+		int aNum = 0;
+		
+		aNum = (int)(Math.random() * 100) + 1;
+		
+		if(aNum % 2 == 0) {
+			System.out.println(aNum + " 은(는) 짝수입니다.");
+		} else {
+			System.out.println(aNum + " 은(는) 홀수입니다.");
+		}
+		
+	}
+
+}

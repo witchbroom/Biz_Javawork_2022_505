@@ -1,0 +1,31 @@
+package com.callor.arrays.exec;
+
+public class ExecV6 {
+
+	public static int total() {
+		int[] aNum = new int[100];
+
+		for (int index = 0; index < aNum.length; index++) {
+			aNum[index] = (int) (Math.random() * 100) + 1;
+		}
+		
+		int[] bNum = new int[100];
+		int index = 0;
+
+		for (index = 0; index < aNum.length; index++) {
+			if (aNum[index] % 2 == 0) {
+				bNum[index] = aNum[index];
+			}
+		}
+		
+		return bNum[index];
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println( total() );
+
+
+	}
+
+}

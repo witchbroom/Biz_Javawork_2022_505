@@ -1,0 +1,22 @@
+package com.callor.arrays.exec;
+
+import java.util.Arrays;
+
+public class ExecV6 {
+
+	public static void main(String[] args) {
+		int[] aNum = new int[100];
+
+		for (int index = 0; index < aNum.length; index++) {
+			aNum[index] = (int) (Math.random() * 100) + 1;
+		}
+		
+
+		for (int index = 0; index < aNum.length; index++) {
+			System.out.println((aNum[index] % 2) == 0 );
+		}
+
+	}
+	
+
+}

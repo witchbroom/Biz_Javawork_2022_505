@@ -1,0 +1,31 @@
+package com.callor.classes.service;
+
+public class ScoreServiceV1 {
+	
+	protected String[] students;
+	protected int[] intKor;
+	
+	public ScoreServiceV1() {
+		
+	}
+	
+	/*
+	 * 상속을 염두에 두고 클래스를 선언할 때는
+	 * 인스턴스변수들을 private이 아닌 protected로 선언한다
+	 * 
+	 * protected private의 성질을 가지면서 상속받은 클래스에서 상속받아 변수를 선언한것과 같은 효과를 낸다
+	 * 인스턴스변수도 상속이 된다
+	 */
+	public ScoreServiceV1(int length) {
+		students = new String[length];
+		intKor = new int[length];
+	}
+	
+	public int input() {
+		
+		
+		
+		return 0;
+	}
+
+}

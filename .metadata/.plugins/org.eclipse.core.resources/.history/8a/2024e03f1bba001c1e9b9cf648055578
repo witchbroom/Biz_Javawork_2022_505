@@ -1,0 +1,29 @@
+package com.callor.arrays.exec;
+
+import java.util.Arrays;
+
+public class ExecV6 {
+
+	public static void main(String[] args) {
+		int[] aNum = new int[100];
+
+		for (int index = 0; index < aNum.length; index++) {
+			aNum[index] = (int) (Math.random() * 100) + 1;
+		}
+		
+		System.out.println("================================");
+		System.out.println("짝수 리스트");
+		System.out.println("--------------------------------");
+
+		for (int index = 0; index < aNum.length; index++) {
+			if(aNum[index] % 2 == 0) {				
+				System.out.print(aNum[index] + ", ");
+			} if ((index + 1) % 5 == 0){
+				System.out.println();
+			}
+		}
+
+	}
+	
+
+}

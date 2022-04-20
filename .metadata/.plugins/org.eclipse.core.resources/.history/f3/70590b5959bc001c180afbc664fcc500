@@ -1,0 +1,14 @@
+package com.callor.classes.exec;
+
+public class String2IntV1 {
+	
+	public static void main(String[] args) {
+		
+		String strAge = "";
+		int intAge = 33;
+		strAge = intAge + "";
+		
+		
+	}
+
+}

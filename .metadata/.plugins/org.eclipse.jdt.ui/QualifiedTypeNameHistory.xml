@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.ProtectionDomain"/>
+    <fullyQualifiedTypeName name="com.callor.service.ServiceV1"/>
+    <fullyQualifiedTypeName name="com.callor.service.ServiceV2"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.callor.app.service.ServiceV1"/>
+    <fullyQualifiedTypeName name="com.callor.app.service.ServiceV2"/>
+    <fullyQualifiedTypeName name="com.callor.app.service.utils.LinePrint"/>
+    <fullyQualifiedTypeName name="com.callor.app.service.ServiceV5"/>
+    <fullyQualifiedTypeName name="com.callor.arrays.service.ServiceV1A"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.callor.arrays.service.utils.Line"/>
+    <fullyQualifiedTypeName name="com.callor.arrays.utils.Line"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.callor.classes.service.utils.Line"/>
+    <fullyQualifiedTypeName name="com.callor.classes.utils.Line"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.callor.score.utils.Line"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.callor.score.utils.Score"/>
+</qualifiedTypeNameHistroy>

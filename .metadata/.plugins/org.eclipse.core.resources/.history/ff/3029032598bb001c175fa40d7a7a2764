@@ -1,0 +1,17 @@
+package com.callor.arrays.exec;
+
+public class StringEx1 {
+	
+	public static void main(String[] args) {
+		
+		String strNation = "KOREA";
+		System.out.println(strNation == "KOREA");
+		
+		String strName = new String("홍길동");
+		System.out.println(strName);
+		System.out.println(strName == "홍길동");
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.callor.classes.exec;
+
+public class String2IntV1 {
+	
+	public static void main(String[] args) {
+		
+		String strAge = "";
+		int intAge = 33;
+		
+		// 숫자형 변수 + "문자열" : 숫자값을 문자열형 값으로 형변환
+		strAge = intAge + "";
+		
+		// Integer 클래스에 선언된 toString static method에게
+		// 정수값 arg로 전달하여 문자열로 return 받는다
+		strAge = Integer.toString(intAge);
+		
+		System.out.println(strAge);
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.callor.arrays.service;
+
+public class StudentService {
+	
+	private String[] strStudents;
+	
+	public StudentService() {
+		strStudents = new String[10];
+	}
+	
+	public StudentService(int length) {
+		strStudents = new String[length];
+	}
+
+}
