@@ -7,10 +7,11 @@ import com.callor.app.model.ScoreVO;
 public class ScoreService {
 
 	private ScoreVO[] scList;
-
+	
 	public ScoreService() {
 		this(20);
 	}
+
 
 	public ScoreService(int length) {
 		scList = new ScoreVO[length];
