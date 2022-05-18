@@ -15,4 +15,6 @@
 		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="true"/>
 		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="C:\Program Files\Sublime Text\sublime_text.exe"/>
 	</section>
+	<section name="NewWizardAction">
+	</section>
 </section>
